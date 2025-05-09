@@ -14,7 +14,7 @@ public class BaseRepository : IBaseRepository
     {
         if (_connection.State != ConnectionState.Open)
         {
-            await _connection.OpenAsync();
+            _connection.Open();
         }
         return _connection.BeginTransaction();
     }
