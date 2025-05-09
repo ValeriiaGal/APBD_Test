@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "src\Entities\En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "src\Logic\Logic.csproj", "{FC2445BC-445C-4256-9D20-8639F9ACC9E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "src\DTO\DTO.csproj", "{3E86C5D0-C653-4FCD-BB8A-5BF6501C58FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{FC2445BC-445C-4256-9D20-8639F9ACC9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC2445BC-445C-4256-9D20-8639F9ACC9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC2445BC-445C-4256-9D20-8639F9ACC9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E86C5D0-C653-4FCD-BB8A-5BF6501C58FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E86C5D0-C653-4FCD-BB8A-5BF6501C58FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E86C5D0-C653-4FCD-BB8A-5BF6501C58FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E86C5D0-C653-4FCD-BB8A-5BF6501C58FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
