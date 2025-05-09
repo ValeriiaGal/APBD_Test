@@ -5,15 +5,11 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>DTO</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.0-preview1.25120.4" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <ProjectReference Include="..\DTO\DTO.csproj" />
-        <ProjectReference Include="..\Entities\Entities.csproj" />
+        <ProjectReference Include="..\PTQ.Application\PTQ.Application.csproj" />
     </ItemGroup>
 
 </Project>

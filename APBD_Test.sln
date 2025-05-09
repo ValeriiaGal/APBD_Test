@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "src\API\API.csproj", "{B5966186-B602-42C3-9A07-AD94DF392795}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTQ.API", "src\PTQ.API\PTQ.API.csproj", "{B5966186-B602-42C3-9A07-AD94DF392795}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "src\Entities\Entities.csproj", "{2E95DDF8-E636-4A78-AFE3-1FB7F84BF6A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTQ.Application", "src\PTQ.Application\PTQ.Application.csproj", "{2E95DDF8-E636-4A78-AFE3-1FB7F84BF6A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "src\Logic\Logic.csproj", "{FC2445BC-445C-4256-9D20-8639F9ACC9E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTQ.Repositories", "src\PTQ.Repositories\PTQ.Repositories.csproj", "{FC2445BC-445C-4256-9D20-8639F9ACC9E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "src\DTO\DTO.csproj", "{3E86C5D0-C653-4FCD-BB8A-5BF6501C58FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTQ.Models", "src\PTQ.Models\PTQ.Models.csproj", "{3E86C5D0-C653-4FCD-BB8A-5BF6501C58FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
